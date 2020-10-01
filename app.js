@@ -10,8 +10,9 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+//---where the array of objects are stored.
 const team = [];
-
+//---Collecting information on the manager of the team.
 function createManager() {
     inquirer.prompt([
         {

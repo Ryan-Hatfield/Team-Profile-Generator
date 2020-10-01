@@ -1,0 +1,27 @@
+body {
+    font-family: 'Merriweather', serif;
+
+}
+
+.jumbotron {
+    background-color: rgb(41, 49, 49);
+    color: white;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.list-group-item {
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgb(41, 49, 49);
+    color: white;
+}
