@@ -46,7 +46,7 @@ function addTeamMember() {
     inquirer.prompt([
         {
             type: "list",
-            message: "Which type of team member would you like to add? (use the up and down arrows",
+            message: "Which type of team member would you like to add? (use the up and down arrows)",
             choices: [
                 "Manager",
                 "Engineer",
