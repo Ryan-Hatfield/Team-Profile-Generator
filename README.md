@@ -1,9 +1,10 @@
 # Team-Profile-Generator
+![GitHub](https://img.shields.io/github/license/Ryan-Hatfield/Team-Profile-Generator)
 An application that allows the use to create a Team Profile, based on the user inputs.
-![GitHub](https://img.shields.io/github/license/ryan-Hatfield/Good-README-Generator) 
+
 
 ## Description
-An application that allows the user to create a Team Profile, based on the user inputs.
+An application that allows a manager to create a Team Profile, based on the users inputs.
 
 ## Table of Contents
 
@@ -29,7 +30,7 @@ Inside the terminal of my application folder the following commands were ran to 
 During the coding process, in order to test the application the "node index.js" was used.
 
 ## Usage
-After the user runs "npm init" and "npm install", the user will then run "node app.js". The user will then be presented with a series of prompts. Afer the prompts have ran through, an HTML file showcasing their team will be generated in the output folder.
+After the user runs "npm init" and "npm install", the user will then run "node app.js". The user will then be presented with a series of prompts. Afer the prompts have ran through, an HTML file showcasing their teams profile will be generated in the output folder.
 
 Below is an example of a generated file.
 
@@ -37,6 +38,7 @@ Below is an example of a generated file.
 
 Below is a link showing how to go through the application.
 
+https://drive.google.com/file/d/1RVAsfY7mi_ESdQ9_bj0r4OdmXyJ4zrRJ/view?usp=sharing
 
 ## Questions
 **GitHub Username:** Ryan-Hatfield
