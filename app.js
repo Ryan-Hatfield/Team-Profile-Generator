@@ -17,32 +17,22 @@ function createManager() {
     inquirer.prompt([
         {
             type: "input",
-            message: "Provide the name of team member.",
+            message: "Provide the name of the manager.",
             name: "name"
         },
         {
-            type: "list",
-            message: "Select the role of the team member.",
-            choices: [
-                "Manager",
-                "Engineer",
-                "Intern"
-            ],
-            name: "role"
-        },
-        {
             type: "input",
-            message: "Enter the ID number of the team member.",
+            message: "Enter the ID number of the manager.",
             name: "id"
         },
         {
             type: "input",
-            message: "Provide the email of the team member.",
+            message: "Provide the email of the manager.",
             name: "email"
         },
         {
             type: "input",
-            message: "Enter team member's office phone number.",
+            message: "Enter the manager's office phone number.",
             name: "officeNumber"
         },
     ]).then(function (response) {
@@ -56,8 +46,9 @@ function addTeamMember() {
     inquirer.prompt([
         {
             type: "list",
-            message: "Which type of team member would you like to add?",
+            message: "Which type of team member would you like to add? (use the up and down arrows",
             choices: [
+                "Manager",
                 "Engineer",
                 "Intern",
                 "No."
@@ -65,7 +56,9 @@ function addTeamMember() {
             name: "role",
         }
     ]).then(function (response) {
-        if(response.role === "Engineer") {
+        if(response.role === "Manager") {
+            createManager();
+        } else if(response.role === "Engineer") {
             createEngineer();
         } else if(response.role === "Intern") {
             createIntern();
