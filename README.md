@@ -1,6 +1,7 @@
 # Team-Profile-Generator
+![GitHub](https://img.shields.io/github/license/Ryan-Hatfield/Team-Profile-Generator)
 An application that allows the use to create a Team Profile, based on the user inputs.
-![GitHub](https://img.shields.io/github/license/ryan-Hatfield/Good-README-Generator) 
+
 
 ## Description
 An application that allows the user to create a Team Profile, based on the user inputs.
